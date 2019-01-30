@@ -1,1 +1,1 @@
-# js-project
+JavaScript – ES6, HTML and CSS – SASS/SCSS project. A website where we can Add, Edit, Delete, Sort multiple personal skills loaded from a JSON. The project includes HTML pages for Names, Skills, Log in, Log out and modal frames.
