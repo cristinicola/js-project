@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<html>
+
+<head>
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu_list">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="right_log">
+                <a href="login.html">
+                    <div class="button">Logout</div>
+                </a>
+            </li>
+            <li class="right_adm"><a href="#">Admin</a></li>
+
+        </ul>
+    </div>
+    <div class="content">
+        <form action="">
+
+            <fieldset>
+
+                <label for="name"> Your name:</label>
+                <input type="text" id="name" name="name" onfocus="placeholder=''" onblur="placeholder='john doe'" placeholder="john doe" required>
+
+                <label for="email"> Email address:</label>
+                <input type="email" id="email" name="email" onfocus="placeholder=''" onblur="placeholder='john.doe@gmail.com'" placeholder="john.doe@gmail.com" required>
+
+                <label for="inquiry"> Inquiry:</label>
+                <textarea id="inquiry" rows="12" name="inquiry" required></textarea>
+
+            </fieldset>
+            <button class="buttonForm" type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

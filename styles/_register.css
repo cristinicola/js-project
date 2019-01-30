@@ -1,0 +1,127 @@
+.register {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #333333;
+  height: 520px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.registerForm {
+  color: #fff;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+}
+
+#registerName {
+  width: 437px;
+  background: #333333;
+  width: 422px;
+  background: #333333;
+  color: #D6FAFF;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  color: #D6FAFF;
+}
+
+#registerName::-webkit-input-placeholder {
+  color: #D6FAFF;
+}
+
+#registerPassword {
+  width: 422px;
+  background: #333333;
+  margin-bottom: 23px;
+  color: #D6FAFF;
+  margin-left: 8px;
+  color: #D6FAFF;
+}
+
+#registerPassword::-webkit-input-placeholder {
+  color: #D6FAFF;
+  font-style: normal;
+}
+
+#registerLabel {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.registerButton {
+  background-color: #333333;
+  color: #D6FAFF;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFF;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.registerButton:hover {
+  background-color: #D6FAFF;
+  color: #333333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFF;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+#hrReg {
+  width: 91%;
+  border: 0;
+  border-top: 1px solid #D6FAFF;
+  padding-bottom: 24px;
+  margin: 0 auto;
+}
+
+#loginAccount,
+#loginAccount a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+#loginAccount a:hover {
+  text-align: center;
+  color: #D6FAFF;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+#nameLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}
+
+#passwordLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}

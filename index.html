@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/main.min.css">
+
+
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu_list">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="right_log">
+                <a href="login.html">
+                    <div class="button">Logout</div>
+                </a>
+            </li>
+            <li class="right_adm"><a href="#">Admin</a></li>
+
+        </ul>
+    </div>
+
+    <div id="pageHeight" class="page">
+        <div class="left">
+
+            <div style="background-color: #fff; width: 100%;" class="element1" id="element1Id">
+                <img src="images/avatar.png"></img>
+                <a href="index.html">Participants</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="element2">
+                <img src="images/skills.png"></img>
+                <a href="skills.html">Skills</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="element3">
+                <img src="images/settings.png"></img>
+                <a href="#">Configure</a>
+            </div>
+        </div>
+
+        <div class="right">
+            <table cellspacing="0" cellpadding="0">
+                <tr>
+                    <th>Name</th>
+                    <th>Average</th>
+                    <th>Seniority</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="personName"> <a href="skills-insert.html">Andrei Ionescu</a> <a href="#" onclick="myFunction(); return false;"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></div>
+                        <div id="drodownTable1">
+                            <div class="html">HTML</div>
+                            <div class="css">CSS</div>
+                            <div class="js">JS</div>
+                        </div>
+                    </td>
+                    <td>5
+                        <div id="drodownTable2">
+                            <div class="gradeHTML">6</div>
+                            <div class="gradeCss">5</div>
+                            <div class="gradeJs">4</div>
+                        </div>
+                    </td>
+                    <td>Mid
+                        <div id="drodownTable3">
+                            <div class="seniority1">Mid</div>
+                            <div class="seniority2">Mid</div>
+                            <div class="seniority3">Junior</div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gheorghe Craioveanu <a href="#"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                    <td>5</td>
+                    <td>Mid</td>
+                </tr>
+                <tr>
+                    <td>Simon Argintaru <a href="#"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                    <td>5</td>
+                    <td>Mid</td>
+                </tr>
+
+                <tr>
+                    <td>Floarea Calota <a href="#"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                    <td>5</td>
+                    <td>Mid</td>
+                </tr>
+                <tr>
+                    <td>Ramona Roman <a href="#"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                    <td>5</td>
+                    <td>Mid</td>
+                </tr>
+                <tr>
+                    <td>Roxana Ivan <a href="#"><i id="drop" class="fa fa-caret-down" aria-hidden="true"></i></a></td>
+                    <td>5</td>
+                    <td>Mid</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+<script src="scripts/index.js"></script>
+
+</html>

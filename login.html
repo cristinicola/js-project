@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="login">
+
+
+        <form action="">
+
+            <fieldset class="loginForm">
+                <label id="loginLabel">Login</label>
+                <label id="nameLabel" for="name"> Your name:</label>
+                <input type="text" id="nameLogin" name="name" onfocus="placeholder=''" onblur="placeholder='john doe'" placeholder="john doe" required>
+
+                <label id="passwordLabel" for="password"> Your password:</label>
+                <input type="password" id="password" name="password" onfocus="placeholder=''" onblur="placeholder='**********'" placeholder="**********" required>
+                <span><input type="checkbox" id="check" value="" /><span id="remember">Remember me</span></span>
+                <a id="forgotPass" href="">Forgot password?</a>
+            </fieldset>
+
+
+
+        </form>
+        <button class="loginButton" type="submit">Login</button>
+        <div id="hrLog"></div>
+        <p id="noAccountLogin">Don't have an account? <a href="register.html">Register here!</a></p>
+    </div>
+
+</body>
+
+</html>

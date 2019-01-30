@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<script src="scripts/edit-del-skill.js"></script>
+
+<html>
+
+<head>
+    <title>Skills</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu_list">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="right_log">
+                <a href="login.html">
+                    <div class="button">Logout</div>
+                </a>
+            </li>
+            <li class="right_adm"><a href="#">Admin</a></li>
+
+        </ul>
+    </div>
+
+    <div class="page">
+        <div class="left">
+
+            <div class="element1" id="element1Id">
+                <img src="images/avatar.png"></img>
+                <a href="index.html">Participants</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div style="background-color: #fff; width: 100%;" class="element2" id="element2Id">
+                <img src="images/skills.png"></img>
+                <a href="skills.html">Skills</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="element3" id="element3Id">
+                <img src="images/settings.png"></img>
+                <a href="#">Configure</a>
+            </div>
+        </div>
+
+        <div class="right-skills">
+
+            <button id="myBtn" onclick="modalForSkillInsertEdit('addNewSkill');" class="buttonAddSkill" type="submit">Add new skill</button>
+            <div id="all-skills">
+
+            </div>
+
+            <button onclick="scrollToTop(500);" id="myBtnUp" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+        </div>
+
+        <!-- modal pentru addnewskill -->
+        <div id="myModal" class="modal-addNewSkill">
+
+            <div class="modal-content-addNewSkill">
+
+                <div class="header-modal">
+                    <div id="headerText" class="header-text">
+                        Add new skill
+                    </div>
+
+                </div>
+
+                <div class="body-modal-addNewSkill">
+                    <form novalidate>
+                        <div class="aboutSkills">
+                            <p><b>Skill Category</b></p>
+                            <div id="selectList">
+                                <select id="selectForSkill">
+
+                    <!-- <option value"selectCat" id="category" selected disabled hidden>Please select skill category</option> -->
+                    <option value="value0" id="optionJunior">Junior</option>
+                    <option value="value1" id="optionMid">Mid</option>
+                    <option value="value2" id="optionSenior">Senior</option>
+                     </select>
+                            </div>
+                            <p><b>Skill Name</b></p>
+                            <div id="emptySkillNameId" class="emptySkillName"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Please fill out this field.</div>
+                            <input type="text" class="" id="skillName" placeholder="Enter Name of the Skill">
+                            <p><b>Skill Description</b></p>
+                            <div id="emptySkillDescriptionId" class="emptySkillDescription"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Please fill out this field.</div>
+                            <textarea id="skillDescription" rows="10" name="skillDescription" onfocus="placeholder=''" onblur="placeholder='Enter description of the Skill'" placeholder="Enter description of the Skill"></textarea>
+                        </div>
+
+                        <div class="line-modal-addNewSkill"> </div>
+
+                        <div class="buttons-addNewSkill" id="buttons-addNewSkillId">
+                            <button id="cancelButon" class="cancel" type="button">
+                        Cancel
+                    </button>
+
+                            <button class="saveSkill" id="saveSkillId" type="button">
+                        Save skill
+                    </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="myModal-delete" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <!-- <span class="close">&times;</span>
+            <p>Some text in the Modal..</p> -->
+
+                <div class="header-modal">
+                    <div class="header-text">
+                        Delete warning
+                    </div>
+
+                </div>
+
+                <div class="body-modal">
+
+                    <div id="textForDelete"></div>
+
+
+                </div>
+
+                <div class="footer-modal" style="margin-top: 10px;">
+                    <div class="line-modal"> </div>
+
+                    <div class="buttons">
+                        <button id="cancelButon-delete" class="cancel">
+                        No
+                    </button>
+
+                        <button id="yes-delete" class="continue" type="button">
+                        Yes, i'm sure
+                    </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+</body>
+
+</html>

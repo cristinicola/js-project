@@ -1,0 +1,18 @@
+            @media screen and (max-width: 1150px) {
+                body {
+                    min-width: 1150px;
+                }
+                .menu {
+                    width: 100%;
+                    min-width: 670px;
+                }
+                .page {
+                    min-width: 1150px;
+                }
+                .page .left {
+                    min-width: 150px;
+                }
+                .right {
+                    width: 1000px;
+                }
+            }

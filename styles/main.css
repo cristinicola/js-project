@@ -1,0 +1,1739 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.page {
+  width: 100%;
+  display: block;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* Firefox 18- */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* Firefox 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+:-moz-placeholder {
+  font-style: italic;
+  color: transparent;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+  color: transparent;
+}
+
+:-ms-input-placeholder {
+  font-style: italic;
+  color: transparent;
+}
+
+/* imports */
+/*---------header--------*/
+.menu {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #333333;
+  height: 100px;
+  z-index: 9999;
+  box-shadow: inset 0 2px #000, 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: inset 0 0px #000, 0 1px 3px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: inset 0 0px #000, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.menu .smaller {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #333333;
+  height: 50px;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 44px;
+  border-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+li,
+li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-top: 7px;
+  cursor: pointer;
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: #D6FAFF;
+}
+
+.right_adm,
+.right_adm a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-right: 5px;
+  cursor: pointer;
+  float: right;
+  font-size: 11px;
+  text-transform: none;
+}
+
+.right_log,
+.right_log a {
+  padding-left: 10px;
+  padding-top: 1px;
+  cursor: pointer;
+  float: right;
+}
+
+.button {
+  border: 1px solid #D6FAFF;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 13px;
+  padding-left: 13px;
+  background: #333333;
+  border-radius: 25px;
+  font-size: 9px;
+  color: #D6FAFF;
+  margin-right: 45px;
+  margin-top: 7px;
+}
+
+.button:hover {
+  border: 1px solid #D6FAFF;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 13px;
+  padding-left: 13px;
+  background: #D6FAFF;
+  margin-right: 45px;
+  margin-top: 7px;
+  border-radius: 25px;
+  font-size: 9px;
+  color: #333333;
+}
+
+/*---------page-left--------*/
+/* .page .left {
+        position: fixed;
+        width: 11%;
+        height: 100%;
+        background-color: #D6FAFF;
+        color: #000;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        min-width: 211px;
+        z-index: 1;
+    } */
+.page .left {
+  z-index: 10;
+  position: fixed;
+  display: inline-block;
+  width: 13%;
+  height: 100%;
+  background-color: #D6FAFF;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+
+.page .left .element1 img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.page .left .element2 img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-top: 8px;
+}
+
+.page .left .element3 img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-top: 8px;
+}
+
+.page .left .element1,
+.page .left .element1 a {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: -19px;
+  text-decoration: none;
+  color: #000;
+  float: left;
+  font-size: 15px;
+}
+
+.page .left .element2,
+.page .left .element2 a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+  float: left;
+  font-size: 15px;
+}
+
+.page .left .element3,
+.page .left .element3 a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+  float: left;
+  font-size: 15px;
+}
+
+.page .left .element1:hover {
+  text-decoration: none;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: -19px;
+}
+
+.page .left .element2:hover {
+  text-decoration: none;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page .left .element3:hover {
+  text-decoration: none;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*---------page-right-table--------*/
+.personName a {
+  text-decoration: none;
+}
+
+.right {
+  width: 87%;
+  height: 100%;
+  float: right;
+  margin-top: 100px;
+}
+
+table {
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  height: 100%;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(1) {
+  background-color: white;
+}
+
+table td {
+  padding: 20px;
+}
+
+table th {
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: left;
+}
+
+table a {
+  color: #000;
+}
+
+#drop {
+  font-size: 20px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#drodownTable1,
+#drodownTable2,
+#drodownTable3 {
+  display: none;
+  margin-top: 40px;
+}
+
+.html,
+.css,
+.js {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.seniority1,
+.seniority2,
+.seniority3 {
+  margin-top: 20px;
+}
+
+.gradeHtml,
+.gradeCss,
+.gradeJs {
+  margin-top: 20px;
+}
+
+.content {
+  margin: 0 auto;
+  padding-top: 160px;
+  width: 700px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  color: #333333;
+  margin-bottom: 40px;
+  border: 1px solid #d3d3d3;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.buttonForm {
+  background-color: #333333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 12px;
+  padding-left: 24px;
+  padding-right: 22px;
+  padding-top: 2px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonForm:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 12px;
+  padding-left: 24px;
+  padding-right: 22px;
+  padding-top: 2px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.login {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #333333;
+  height: 568px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginForm {
+  color: #fff;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+}
+
+#nameLogin {
+  width: 437px;
+  background: #333333;
+  width: 422px;
+  background: #333333;
+  color: #D6FAFF;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  color: #D6FAFF;
+}
+
+#nameLogin::-webkit-input-placeholder {
+  color: #D6FAFF;
+}
+
+#password {
+  width: 422px;
+  background: #333333;
+  margin-bottom: 23px;
+  color: #D6FAFF;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  color: #D6FAFF;
+}
+
+#password::-webkit-input-placeholder {
+  color: #D6FAFF;
+  font-style: normal;
+}
+
+#loginLabel {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#checkLabel {
+  float: left;
+  text-align: center;
+}
+
+#forgotPass,
+#forgotPass a {
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.loginButton {
+  background-color: #333333;
+  color: #D6FAFf;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 2px;
+  border: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFf;
+  margin-top: 24px;
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.loginButton:hover {
+  background-color: #D6FAFf;
+  color: #333333;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 2px;
+  border: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFf;
+  /* margin-left: 215px; */
+  margin-top: 24px;
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#hrLog {
+  width: 91%;
+  border: 0;
+  border-top: 1px solid #D6FAFf;
+  padding-bottom: 24px;
+  margin: 0 auto;
+}
+
+#noAccountLogin,
+#noAccountLogin a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 4px;
+}
+
+#noAccountLogin a:hover {
+  text-align: center;
+  color: #D6FAFf;
+  text-decoration: none;
+}
+
+#remember {
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+#check {
+  vertical-align: middle;
+  margin-left: 9px;
+}
+
+#nameLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}
+
+#passwordLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}
+
+.register {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #333333;
+  height: 520px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.registerForm {
+  color: #fff;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+}
+
+#registerName {
+  width: 437px;
+  background: #333333;
+  width: 422px;
+  background: #333333;
+  color: #D6FAFF;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  color: #D6FAFF;
+}
+
+#registerName::-webkit-input-placeholder {
+  color: #D6FAFF;
+}
+
+#registerPassword {
+  width: 422px;
+  background: #333333;
+  margin-bottom: 23px;
+  color: #D6FAFF;
+  margin-left: 8px;
+  color: #D6FAFF;
+}
+
+#registerPassword::-webkit-input-placeholder {
+  color: #D6FAFF;
+  font-style: normal;
+}
+
+#registerLabel {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.registerButton {
+  background-color: #333333;
+  color: #D6FAFf;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFf;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.registerButton:hover {
+  background-color: #D6FAFf;
+  color: #333333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #D6FAFf;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+#hrReg {
+  width: 91%;
+  border: 0;
+  border-top: 1px solid #D6FAFf;
+  padding-bottom: 24px;
+  margin: 0 auto;
+}
+
+#loginAccount,
+#loginAccount a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+#loginAccount a:hover {
+  text-align: center;
+  color: #D6FAFf;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+#nameLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}
+
+#passwordLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 9px;
+}
+
+.right-skills {
+  width: 87%;
+  /* position: relative; */
+  float: right;
+  margin-top: 100px;
+  padding-bottom: 40px;
+}
+
+.participants {
+  text-transform: uppercase;
+  left: 42px;
+  font-size: 15px;
+  font-weight: bold;
+  /* position: absolute */
+  display: inline;
+  top: 17px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.fa-chevron-left {
+  padding-top: 25px;
+  /* left: 19px; */
+  font-size: 15px;
+  /* position: absolute; */
+  /* left: 18px; */
+  padding-left: 23px;
+}
+
+.participantName {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 38px;
+  padding-left: 23px;
+}
+
+.seniorityJunior {
+  padding-top: 26px;
+  padding-left: 23px;
+}
+
+.tableJunior {
+  display: block;
+  border: 1px solid #d7d7d7;
+  width: 96%;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.tableJuniorChild {
+  display: block;
+  height: 45px;
+  width: 100%;
+  position: relative;
+}
+
+.tableJuniorChild:last-child {
+  display: block;
+  border-bottom: none;
+  height: 45px;
+  width: 100%;
+}
+
+.tableJuniorChild:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.tableJuniorChild:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+
+.buttonSave {
+  background-color: #333333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 22px;
+  padding-top: 2px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.buttonSave:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 22px;
+  padding-top: 2px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.valueInserted {
+  float: right;
+  width: 160px;
+  height: 21px;
+  /* padding-bottom: 8px; */
+  margin-right: 18px;
+  border: 1px solid #d7d7d7;
+  position: relative;
+  bottom: 8px;
+}
+
+.rowDivSkillName {
+  position: relative;
+  top: 14px;
+  text-transform: lowercase;
+  left: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 22%;
+}
+
+.rowDivSkillName:first-letter {
+  text-transform: uppercase;
+}
+
+.info {
+  height: 12px;
+  width: 12px;
+  float: left;
+  position: relative;
+  top: 17px;
+  left: 13px;
+}
+
+.senName {
+  margin-left: 24px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tooltipDescription {
+  width: 500px;
+  visibility: hidden;
+  background-color: #333333;
+  color: #fff;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  margin-left: 5px;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 12px;
+  margin-top: 40px;
+  cursor: pointer !important;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.tooltipDescription::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 14px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #333333 transparent;
+  cursor: pointer !important;
+}
+
+.info:hover + .tooltipDescription {
+  visibility: visible;
+  cursor: pointer !important;
+  opacity: 1;
+}
+
+.errorInput {
+  visibility: hidden;
+  height: 25px;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  right: 195px;
+  bottom: 10px;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 24px;
+  outline: none;
+}
+
+.errorInput::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 100%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent red;
+}
+
+/* .errorInput {
+        height: 25px;
+        width: 100px;
+        display: block;
+        background-color: red;
+        position: absolute;
+        right: 195px;
+        bottom: 10px;
+    } */
+.allParticipantsBack {
+  text-decoration: none;
+  color: #333333;
+}
+
+.allParticipantsBack:hover {
+  color: #d7d7d7;
+}
+
+.sortSkill {
+  float: left;
+  position: relative;
+  left: 24px;
+  width: 70px;
+  top: 25px;
+}
+
+.sortValue {
+  float: right;
+  position: relative;
+  right: 103px;
+  top: 25px;
+}
+
+.caret-up1 {
+  float: right;
+  position: absolute;
+  bottom: 7px;
+  left: 55px;
+  color: #000;
+}
+
+.caret-up1 a {
+  color: #000;
+}
+
+.caret-down1 {
+  float: right;
+  position: absolute;
+  left: 55px;
+  top: 5px;
+  color: #000;
+}
+
+.caret-down1 a {
+  color: #000;
+}
+
+.caret-up2 {
+  float: right;
+  position: absolute;
+  left: 62px;
+  bottom: 6px;
+  color: #000;
+}
+
+.caret-up2 a {
+  color: #000;
+}
+
+.caret-down2 {
+  float: right;
+  position: absolute;
+  left: 62px;
+  top: 6px;
+  color: #000;
+}
+
+.caret-down2 a {
+  color: #000;
+}
+
+.borderTableSkill {
+  width: 96%;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: 25px;
+}
+
+#all-skills {
+  width: 100%;
+}
+
+#sprite1 {
+  background-image: url("spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+  float: right;
+  width: 22px;
+  height: 22px;
+  background-position: -5px -5px;
+  margin-right: 10px;
+}
+
+#sprite2 {
+  background-image: url("spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+  float: right;
+  width: 22px;
+  height: 22px;
+  background-position: -27px -5px;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 11;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.2s;
+  animation-name: animatetop;
+  animation-duration: 0.2s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 500px;
+  height: 286px;
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.header-modal {
+  background-color: #D6FAFF;
+  display: block;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333;
+  margin-top: 23px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.body-modal {
+  background-color: #fff;
+  display: block;
+  width: 440px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  line-height: 40px;
+}
+
+.line-modal {
+  border: 1px solid #f3f3f3;
+  margin-top: 34px;
+}
+
+.cancel {
+  float: left;
+  background-color: #fff;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.cancel:hover {
+  float: left;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.continue {
+  float: right;
+  background-color: #333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.continue:hover {
+  float: right;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.buttons {
+  margin-top: -8px;
+}
+
+.buttonAddSkill {
+  background-color: #333333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 22px;
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 15px;
+}
+
+.buttonAddSkill:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 22px;
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 15px;
+}
+
+.descriptionTitle {
+  position: relative;
+  left: 33%;
+  top: 25px;
+  /* float: left; */
+  display: inline-block;
+  margin-left: -45px;
+  float: left;
+}
+
+.descriptionText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 41%;
+  position: relative;
+  bottom: 4px;
+  left: 33%;
+  /* margin: 0 auto; */
+}
+
+.sortDiv {
+  width: 96%;
+  padding-bottom: 20px;
+}
+
+.editDelDiv {
+  float: right;
+  position: relative;
+  bottom: 25px;
+  right: 11px;
+}
+
+.pen {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bin {
+  cursor: pointer;
+}
+
+.emptySkillName {
+  position: absolute;
+  top: 127px;
+  left: 280px;
+  /* float: right; */
+  color: #fff;
+  /* background-color: red; */
+  /* padding-top: 0px; */
+  display: none;
+  font-size: 13px;
+  width: 160px;
+  height: 34px;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0px;
+  background: red;
+  border-radius: 5px;
+}
+
+.emptySkillName:after {
+  content: '';
+  position: relative;
+  /* bottom: 15px; */
+  border-style: solid;
+  border-width: 15px 8px 0;
+  border-color: red transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: 2px;
+  left: 14px;
+}
+
+.emptySkillDescription {
+  position: absolute;
+  top: 237px;
+  left: 280px;
+  /* float: right; */
+  color: #fff;
+  /* background-color: red; */
+  /* padding-top: 0px; */
+  display: none;
+  font-size: 13px;
+  width: 160px;
+  height: 34px;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0px;
+  background: red;
+  border-radius: 5px;
+}
+
+.emptySkillDescription:after {
+  content: '';
+  position: relative;
+  /* bottom: 15px; */
+  border-style: solid;
+  border-width: 15px 8px 0;
+  border-color: red transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: 2px;
+  left: 14px;
+}
+
+.modal-addNewSkill {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 11;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.2s;
+  animation-name: animatetop;
+  animation-duration: 0.2s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-content-addNewSkill {
+  background-color: #fff;
+  width: 500px;
+  height: 690px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.header-modal {
+  background-color: #D6FAFF;
+  display: block;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333;
+  margin-top: 23px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.body-modal-addNewSkill {
+  background-color: #fff;
+  display: block;
+  width: 440px;
+  /* height: 46px; */
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  line-height: 40px;
+}
+
+.line-modal-addNewSkill {
+  border: 1px solid #f3f3f3;
+  margin-top: 30px;
+}
+
+.cancel {
+  float: left;
+  background-color: #fff;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.cancel:hover {
+  float: left;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.saveSkill {
+  float: right;
+  background-color: #333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.saveSkill:hover {
+  float: right;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.buttons-addNewSkill {
+  margin-top: -6px;
+}
+
+.aboutSkills {
+  height: 500px;
+}
+
+#skillName {
+  width: 408px;
+  height: 8px;
+  margin-bottom: 0px;
+}
+
+#skillDescription {
+  width: 408px;
+  resize: none;
+}
+
+#selectForSkill {
+  width: 440px;
+  height: 40px;
+  border-color: #d3d3d3;
+}
+
+.modal-editSkill {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 11;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.2s;
+  animation-name: animatetop;
+  animation-duration: 0.2s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-content-editSkill {
+  background-color: #fff;
+  width: 500px;
+  height: 690px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.header-modal {
+  background-color: #D6FAFF;
+  display: block;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333;
+  margin-top: 23px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.body-modal-addNewSkill {
+  background-color: #fff;
+  display: block;
+  width: 440px;
+  /* height: 46px; */
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  line-height: 40px;
+}
+
+.line-modal-addNewSkill {
+  border: 1px solid #f3f3f3;
+  margin-top: 30px;
+}
+
+.cancel-edit {
+  float: left;
+  background-color: #fff;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.cancel-edit:hover {
+  float: left;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.saveSkill {
+  float: right;
+  background-color: #333;
+  color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.saveSkill:hover {
+  float: right;
+  background-color: #D6FAFF;
+  color: #333;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #333;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 25px;
+}
+
+.buttons-editSkill {
+  margin-top: -6px;
+}
+
+.aboutSkills {
+  height: 500px;
+}
+
+#skillNameEdit {
+  width: 408px;
+  height: 8px;
+  margin-bottom: 0px;
+}
+
+#skillDescriptionEdit {
+  width: 408px;
+  resize: none;
+}
+
+#selectForSkill {
+  width: 440px;
+  height: 40px;
+  border-color: #d3d3d3;
+}
+
+#skillNameHeader {
+  font-size: 20px;
+  color: red;
+  display: inline-block;
+}
+
+.footer-modal {
+  position: relative;
+  top: 180px;
+  width: 440px;
+  left: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    min-width: 1150px;
+  }
+  .menu {
+    width: 100%;
+    min-width: 670px;
+  }
+  .page {
+    min-width: 1150px;
+  }
+  .page .left {
+    min-width: 150px;
+  }
+  .right {
+    width: 1000px;
+  }
+}
+
+#myBtnUp {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  /* padding-bottom: 145px; */
+  /* margin-top: 120px; */
+  right: 0px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  /* border-radius: 6px; */
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/main.min.css">
+<script src="scripts/skill-insert.js"></script>
+
+<html>
+
+<head>
+    <title>Participants</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="right_log">
+                <a href="login.html">
+                    <div class="button">Logout</div>
+                </a>
+            </li>
+            <li class="right_adm"><a href="#">Admin</a></li>
+        </ul>
+    </div>
+
+    <div class="page">
+        <div class="left">
+
+            <div class="element1">
+                <img src="images/avatar.png"></img>
+                <a href="index.html">Participants</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="element2">
+                <img src="images/skills.png"></img>
+                <a href="skills.html">Skills</a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="element3">
+                <img src="images/settings.png"></img>
+                <a href="#">Configure</a>
+            </div>
+        </div>
+
+        <div class="right-skills">
+            <a id="allParticipantsBackId" class="allParticipantsBack" onclick="changesCheck();"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <div class="participants">
+                All participants</div></a>
+
+            <div class="participantName">
+                Andrei Ionescu</div>
+            <div id="all-skills">
+            </div>
+            <button id="myBtn" onclick="savePage();" class="buttonSave" type="submit">Save</button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="header-modal">
+                    <div class="header-text">
+                        Warning
+                    </div>
+                </div>
+                <div class="body-modal">
+                    Are you sure you want to leave without saving your ANDREI IONESCU information?
+                    <div class="line-modal"> </div>
+
+                    <div class="buttons">
+                        <button id="cancelButon" class="cancel">
+                        Cancel
+                    </button>
+                        <button onclick="location.href='index.html'" class="continue">
+                        Yes, continue without saving
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="scrollToTop(500);" id="myBtnUp" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+</body>
+
+</html>

@@ -1,0 +1,295 @@
+[{
+        "mainId": 1,
+        "mainName": "pm",
+        "requiredSkills": [{
+            "id": 71,
+            "name": "INTEGRATION MANAGEMENT",
+            "description": "The responsibility of Project Integration Management includes making choices about resource allocation, making trade-offs among competing objectives and alternatives, and managing the interdependencies among the project management Knowledge Areas. The responsibilities below are presented as discrete with defined interfaces while, in practice, they overlap and interact, for which the manager should be able to properly decide the optimal solution.",
+            "value": 11
+        }, {
+            "id": 72,
+            "name": "SCOPE MANAGEMENT",
+            "description": "The responsibility of Scope Management will ensure the project includes all the work required, and only the work required to deliver the project successfully.",
+            "value": 15
+        }, {
+            "id": 73,
+            "name": "TIME MANAGEMENT",
+            "description": "The responsibility of Time Management will ensure the project will meet the expected milestones communicated and agreed.",
+            "value": 25
+        }, {
+            "id": 74,
+            "name": "COST MANAGEMENT",
+            "description": "The responsibility of Cost Management will ensure the planning, estimating, budgeting, managing, and controlling costs so that the project can be completed within the approved budget. Even if the project is not a fixed price one, the sponsor approving the budget will do so based on certain expectations which should be managed.",
+            "value": ""
+        }, {
+            "id": 75,
+            "name": "QUALITY MANAGEMENT",
+            "description": "The responsibility of Quality Management will ensure quality policies, objectives, and responsibilities so that the project will satisfy the needs for which it was undertaken. The quality should be always considered in the context of the client's needs and business value.",
+            "value": ""
+        }, {
+            "id": 76,
+            "name": "HUMAN RESOURCE MANAGEMENT",
+            "description": "The responsibility of Human Resource Management will allow organizing, managing and leading the project team. The project team is comprised of the people with assigned roles and responsibilities for completing the project.",
+            "value": ""
+        }, {
+            "id": 77,
+            "name": "COMMUNICATIONS MANAGEMENT",
+            "description": "Project Manager should use all kind of communication forms with project team members, upper management, and all other stakeholders.",
+            "value": ""
+        }, {
+            "id": 78,
+            "name": "RISK MANAGEMENT",
+            "description": "Project manager should manage risk in a systematic manner and should ensure threats have a reduced effect in the project.",
+            "value": ""
+        }, {
+            "id": 79,
+            "name": "PROCUREMENT MANAGEMENT",
+            "description": "The responsibility of Procurement Management includes necessary steps to purchasing or acquiring products, services, or results needed from outside the project team.",
+            "value": ""
+        }, {
+            "id": 80,
+            "name": "STAKEHOLDER MANAGEMENT",
+            "description": "Project manager should do what's necessary to develop and control relationships with all stakeholders that the project impacts.",
+            "value": ""
+        }, {
+            "id": 81,
+            "name": "COMPANY PROCESSES",
+            "description": "Additionally to the project, the Project Manager is expected to drive or support various key company processes highlighted under the PMO umbrella (e.g. Drive performance management, Support presales, Preoccupied in having a successor / doing mentorship, ...).",
+            "value": ""
+        }]
+    },
+
+    {
+        "mainId": 2,
+        "mainName": "se",
+        "requiredSkills": [{
+                "id": 5107518,
+                "name": "END TO END DELIVERY OF TASKS",
+                "description": "Autonomously delivers the assigned tasks (clarify, estimate, design, implement, integrate, test and document) after validation with a SSE/TL/TechL from the project team. Works according to the agreed engineering practices in the project.",
+                "value": ""
+            },
+            {
+                "id": 5107519,
+                "name": "EFFORT ESTIMATION",
+                "description": "",
+                "value": ""
+            },
+            {
+                "id": 5107520,
+                "name": "PROVIDE CLEAR TASK STATUS",
+                "description": "Task progress is clearly tracked. Explains effort, decisions, progress and has clear remaining estimates for work in progress. Raises early flags when the remaining part of the task can deviate from the agreed one. The status can be used by PM/TechL in order to make decisions.",
+                "value": ""
+            },
+            {
+                "id": 5107521,
+                "name": "DEPLOYMENT SUPPORT",
+                "description": "Supports deployment activities, keeping up to date the release documentation / installation documentation.",
+                "value": ""
+            },
+            {
+                "id": 5107522,
+                "name": "PROJECT SETUP SUPPORT",
+                "description": "Supports the project setup related activities: source control (and related policies), build and CI, development tools, etc",
+                "value": ""
+            },
+            {
+                "id": 5107523,
+                "name": "PROVIDE CONSTRUCTIVE FEEDB",
+                "description": "Gives feedback about quality, processes, risks etc, providing solutions and ideas on how to improve the situations.",
+                "value": ""
+            },
+            {
+                "id": 5107524,
+                "name": "TECHNICAL SOLUTION COMPARISON AND DECISION",
+                "description": "Decides and/or facilitates decision among proposed solutions in the context of own tasks. Compares two or more possible options and makes recommendations based on the specific needs. Identifies the main drivers (time, effort, skills, extensibility, testability, risk mitigation etc.) and considers them in the decisions.",
+                "value": ""
+            },
+            {
+                "id": 5107525,
+                "name": "TEAM INTERACTION",
+                "description": "Helps with new colleagues' project and/or technology on-boarding, providing teaching to inexperienced colleagues, helping with dissemination of best practices.",
+                "value": ""
+            },
+            {
+                "id": 5107526,
+                "name": "CLIENT INTERACTION",
+                "description": "Interacts with the client based on the topics related to his/her tasks.",
+                "value": ""
+            },
+            {
+                "id": 5107527,
+                "name": "INCIDENT HANDLING ACCORDING TO SLA",
+                "description": "Provides 3rd level technical support for the client: investigates incidents (including software code analysis, clarifications, getting the needed information from the client), responds to and resolves incidents within SLA targets, communicates (by phone, email) with the persons involved, organizes and coordinates activities (e.g. calls with IT responsible, etc), documents root cause analysis and solutions. Takes ownership of the assigned incident and resolves it without the need for tech lead intervention. All activities are done according to the SLA, specific project process and best practices.",
+                "value": ""
+            },
+            {
+                "id": 5107528,
+                "name": "SUPPORT KNOWLEDGE DEVELOPMENT",
+                "description": "Contributes to the knowledge base of the support team with the situations encountered during incidents investigation.",
+                "value": ""
+            },
+            {
+                "id": 5107529,
+                "name": "ESCALATION",
+                "description": "Escalates issues discovered during investigations that may impact the customer business and offers suggestions for product improvement.",
+                "value": ""
+            },
+            {
+                "id": 5107530,
+                "name": "TECHNICAL RISK HANDLING",
+                "description": "Is aware of and handles possible issues triggered by the implementation of fixes/workarounds that might appear at system level. Escalates any situation that might impact the system.",
+                "value": ""
+            },
+            {
+                "id": 5107531,
+                "name": "AVAILABILITY",
+                "description": "Is available according to the specific support model (for working outside normal hours and days).",
+                "value": ""
+            }
+        ]
+    },
+
+    {
+        "mainId": 3,
+        "mainName": "sse",
+        "requiredSkills": [{
+                "id": 6000001,
+                "name": "BEST PRACTICES DISSEMINATION",
+                "description": "Contributes to best practices knowledge sharing and application within the project. The dissemination might happen in many forms: feedback, presentations (design patterns, design principles), clarification of role responsibilities, recommendation of books and articles, recommendation of events, lessons learned etc.",
+                "value": ""
+            },
+            {
+                "id": 6000002,
+                "name": "TECHNICAL RECOMMENDATION, COMPARISON ANALYSIS AND ASSESSMENT ACTIVITIES FOR A COMPONENT/SUB-SYSTEM",
+                "description": "Conducts comparison analysis and assessment activities in order to: recommend tools, libraries, products, technologies etc on the project level. Evaluates selection criteria (cost, performance, license model, extensibility etc.), documents results and recommends a solution to fulfill the project needs.",
+                "value": ""
+            },
+            {
+                "id": 6000003,
+                "name": "END TO END DELIVERY OF COMPONENTS AND SUB-SYSTEMS ON THE PROJECT LEVEL",
+                "description": "Delivers components/subsystems end-to-end (requirements clarification, A&D, implementation, testing, integration, deployment, documentation) by applying agreed best practices, project software development processes and methodologies on the components/sub-systems delivered.",
+                "value": ""
+            },
+            {
+                "id": 6000004,
+                "name": "EFFORT ESTIMATION",
+                "description": "Provides effort estimations over own area of influence and is aware of the impact the estimations have on for the area for which he has provided them. Coaches other team members explaining tools/methods in how to approach or do estimations on tasks, components, sub-systems.",
+                "value": ""
+            },
+            {
+                "id": 6000005,
+                "name": "DEPLOYMENT",
+                "description": "Drives the deployment activities, keeping up to date the release documentation / installation documentation",
+                "value": ""
+            },
+            {
+                "id": 6000006,
+                "name": "PROJECT SETUP",
+                "description": "Contributes to the project setup related activities: source control (and related policies), build and CI, development tools, etc.",
+                "value": ""
+            },
+            {
+                "id": 6000007,
+                "name": "RISK AWARENESS",
+                "description": "Escalates any situation that might impact the project and makes sure that the risk is considered by other team members.",
+                "value": ""
+            },
+            {
+                "id": 6000008,
+                "name": "PROVIDE CONSTRUCTIVE FEEDBACK",
+                "description": "Gives feedback about quality, processes, risks etc, providing solutions and ideas on how to improve the situations.",
+                "value": ""
+            },
+            {
+                "id": 6000009,
+                "name": "TECHNICAL COORDINATION OF A SMALL DEVELOPMENT TEAM ( 2 - 3 PEOPLE ) WHICH HANDLES A COMPONENT/SUB-SYSTEM",
+                "description": "Leads a small team in order to implement components and sub-systems: WBS, tasks assignment, delegation, etc. Remains accountable for the implemented software. Reacts and helps a team member that shows difficulties in implementing a task. Provide relevant, constructive feedback (e.g. during code review), sharing technology information, recommendations for study, etc. for the coordinated team.",
+                "value": ""
+            },
+            {
+                "id": 6000010,
+                "name": "CLIENT INTERACTION",
+                "description": "Interacts with the client based on the topics related to his/her tasks and the tasks of the team members he/she supervises.",
+                "value": ""
+            },
+            {
+                "id": 6000011,
+                "name": "TECHNICAL INTERVIEWS",
+                "description": "Conducts or assists a technical interview. Understands an interview structure, provides technical recommendation, identifies possible show-stoppers.",
+                "value": ""
+            },
+            {
+                "id": 6000012,
+                "name": "PRE-SALES SUPPORT",
+                "description": "Provides technical support during presales activities for a component/sub-system. The technical support activities might include: requirements analysis, estimation in situations with high level of uncertainty, proof of concepts and results presentation/documentation, participation in workshops and drive for technical discussions, high level design, technical risk management etc.",
+                "value": ""
+            },
+            {
+                "id": 6000013,
+                "name": "PROVIDE CLEAR TASK STATUS",
+                "description": "Task progress is clearly tracked. Explains effort, decisions, progress and has clear remaining estimates for work in progress. Raises early flags when the remaining part of the task can deviate from the agreed one. Is aware of the impact in the project.",
+                "value": ""
+            },
+            {
+                "id": 6000014,
+                "name": "DRIVE PERSONAL DEVELOPMENT",
+                "description": "Continuously updates his/her technical knowledge and skills by attending in-house and/or external courses, reading books or articles and approaching new technologies. Clarifies the project/role expectations.",
+                "value": ""
+            },
+            {
+                "id": 6000015,
+                "name": "SUPPORT FOR CAREER MANAGEMENT / PERFORMANCE MANAGEMENT ACTIVITIES",
+                "description": "Provides input required in the career management / performance management activities upon request: competencies feedback for career management, objectives tracking and evaluation for less senior team members in performance management.",
+                "value": ""
+            },
+            {
+                "id": 6000016,
+                "name": "TEAM INTERACTION & INTEGRATION",
+                "description": "Provides advice, training and technical support for team members. Integrate new team members in the team.",
+                "value": ""
+            },
+            {
+                "id": 6000017,
+                "name": "SUPPORT FOR TECHNICAL EVENTS ORGANIZATION AND IMPLEMENTATION",
+                "description": "For example: Internship, Open days, iQuest University, Tech. Trainings.",
+                "value": ""
+            },
+            {
+                "id": 6000018,
+                "name": "INCIDENT HANDLING ACCORDING TO SLA",
+                "description": "Provides 3rd level technical support for the client: investigates incidents (including software code analysis, clarifications, getting the needed information from the client), responds to and resolves incidents within SLA targets, communicates (by phone, email) with the persons involved, organizes and coordinates activities (e.g. calls with IT responsible, etc), documents root cause analysis and solutions. Handles complex incidents according to the defined SLAs and project processes (the complexity refers to system/platform complexity, technical solution complexity or business knowledge). Is accountable for the implemented fixes.",
+                "value": ""
+            },
+            {
+                "id": 6000019,
+                "name": "SUPPORT PROCESS TAILORING",
+                "description": "Adapts to client processes by suggesting possible tailoring options, comes up with a model and applies it taking into account the other support projects (e.g. 2nd level support).",
+                "value": ""
+            },
+            {
+                "id": 6000020,
+                "name": "SUPPORT KNOWLEDGE DEVELOPMENT",
+                "description": "Is responsible for the knowledge base of the support team with the situations encountered during incidents investigation.",
+                "value": ""
+            },
+            {
+                "id": 6000021,
+                "name": "ESCALATION",
+                "description": "Escalates issues discovered during investigations that may impact the customer business and offers suggestions for product and process improvement.",
+                "value": ""
+            },
+            {
+                "id": 6000022,
+                "name": "TECHNICAL RISK HANDLING",
+                "description": "Is aware of and handles possible issues triggered by the implementation of fixes/workarounds that might appear at system level. Escalates any situation that might impact the system.",
+                "value": ""
+            },
+            {
+                "id": 6000023,
+                "name": "AVAILABILITY",
+                "description": "Is available according to the specific support model (for working outside normal hours and days).",
+                "value": ""
+            }
+        ]
+    }
+]

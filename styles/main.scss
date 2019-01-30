@@ -1,0 +1,95 @@
+$black: #000;
+$pageW: 1000px;
+$blue: #D6FAFF;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+    outline: none !important
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.page {
+    width: 100%;
+    display: block;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* Firefox 18- */
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* Firefox 19+ */
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+    color: transparent;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+    color: transparent;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    color: transparent;
+}
+
+/* imports */
+
+@import "_header.scss";
+@import "_sidebar.scss";
+@import "_content-right.scss";
+@import "_contact.scss";
+@import "_login.scss";
+@import "_register.scss";
+@import "_skills-insert.scss";
+@import "_modal-window.scss";
+@import "_skills.scss";
+@import "_modal-addnewskill.scss";
+@import "_modal-editskill.scss";
+@import "_modal-deleteSkill.scss";
+@import "_media-query.scss";
+#myBtnUp {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    /* padding-bottom: 145px; */
+    /* margin-top: 120px; */
+    right: 0px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    /* border-radius: 6px; */
+}
